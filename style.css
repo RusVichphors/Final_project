@@ -119,4 +119,27 @@ div.desc {
   content: "";
   display: table;
   clear: both;
-}
+}.blue-head {
+      background-color: darkblue;
+      padding: 16px;
+      color: white;
+      flex-grow: 1;
+    }
+
+    .blue-head:hover {
+      background-color: #3e8e41;
+    }
+
+    em.blue {
+      color: blue;
+    }
+
+    em.red {
+      color: red;
+    }
+
+    ul {
+      list-style: none;
+      line-height: 2rem;
+    }
+    
